@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "vanilla-tilt": "^1.8.1"
+  }
+}
+
