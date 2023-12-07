@@ -1,96 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 3rem;
-    color: #fff;
-    background-color: #222;
-    min-height: 100vh;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #222;
+  min-height: 100vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .card {
-    width: 60rem;
-    height: 40rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 60rem;
+  height: 40rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    border-radius: 2rem;
-    box-shadow: 1rem 1rem 5rem rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(1rem);
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 5rem rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1rem);
 }
 
 .card p {
-padding: 3rem;
-/* transform: translateY(2rem);
-opacity: 0;
-transition: 0.5s; */
-display: none; /* Initially hide the play text */
-opacity: 0; /* Initially set opacity to 0 */
-transition: opacity 0.5s ease-in-out; 
+  transform: translateY(2rem);
+  opacity: 0;
+  transition: 0.5s;
+  display: none;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.5s ease-in-out;
 }
 
 #button {
-    color: #fff;
-    background-color: transparent;
-    font-size: 2.5rem;
-    border: none;
-    cursor: pointer;
-}
-
-#snowman {
-font-size: 8rem;
-}
-
-.snowflake {
-    position: absolute;
-    top: -10px;
-    opacity: 1;
-    color: #fff;
-    animation: fall 8s linear, spin 4s linear infinite;
-}
-
-@keyframes fall {
-0% {
-    top: -10px;
-}
-100% {
-    top: 100vh;
-}
-}
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
+  color: #fff;
+  background-color: transparent;
+  font-size: 2.5rem;
+  border: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 575px) {
-    body {
-        font-size: 2.5rem;
-    }
-    .card {
-        width: 80%;
-}
+  body {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: 80%;
+  }
 }
