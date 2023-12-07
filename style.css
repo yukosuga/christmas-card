@@ -40,12 +40,13 @@ body::before {
   backdrop-filter: blur(1rem);
 }
 
-.card p {
+#text {
+  padding: 3rem;
   transform: translateY(2rem);
   opacity: 0;
   transition: 0.5s;
   display: none;
-  opacity: 0; /* Initially set opacity to 0 */
+  opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
