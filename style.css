@@ -18,6 +18,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    overflow-y: hidden;
 }
 
 body::before {
@@ -42,14 +44,46 @@ body::before {
 
 .card p {
 padding: 3rem;
-transform: translateY(2rem);
+/* transform: translateY(2rem);
 opacity: 0;
-transition: 0.5s;
+transition: 0.5s; */
+display: none; /* Initially hide the play text */
+opacity: 0; /* Initially set opacity to 0 */
+transition: opacity 0.5s ease-in-out; 
 }
 
-.card:hover p {
-    transform: translateY(0);
+#button {
+    color: #fff;
+    background-color: transparent;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#snowman {
+font-size: 8rem;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
     opacity: 1;
+    color: #fff;
+    animation: fall 8s linear, spin 4s linear infinite;
+}
+
+@keyframes fall {
+0% {
+    top: -10px;
+}
+100% {
+    top: 100vh;
+}
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @media only screen and (max-width: 575px) {
