@@ -18,4 +18,4 @@ Leveraging Vanilla Tilt's features, I implemented visual motion to elevate the u
 <img src="./img/readme_image2.jpg" alt="website screenshot" width="300">
 
 ❄ Happy Winter Holiday ❄  
-🎅 [from santa](https://yukosuga.github.io/stopwatch/) 💌✨
+🎅 [from santa](https://yukosuga.github.io/christmas-card/) 💌✨
