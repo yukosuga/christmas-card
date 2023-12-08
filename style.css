@@ -43,11 +43,9 @@ body::before {
 #text {
   padding: 3rem;
   transform: translateY(2rem);
-  opacity: 0;
-  transition: 0.5s;
   display: none;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 
 #button {
