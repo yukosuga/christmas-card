@@ -1,7 +1,7 @@
 const card = document.querySelector(".card");
 const text = document.querySelector("#text");
 const button = document.querySelector("#button");
-const audio = new Audio("christmas_card.mp3")
+const audio = new Audio("santa.mp3")
 
 button.addEventListener("click", () => {
   button.style.display = "none";
