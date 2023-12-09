@@ -6,9 +6,8 @@
 ![Static Badge](https://img.shields.io/badge/CSS3-008000?style=for-the-badge&logo=CSS3)  
 ![Static Badge](https://img.shields.io/badge/JavaScript-ffffe0?style=for-the-badge&logo=JavaScript)  
 
-#### 🔸Canva
-In this project, I utilized [Canva](https://www.canva.com/) to create a unique audio experience by merging two distinct sounds.  
-Using Canva's audio editing features, I combined two separate audio files to produce a single, cohesive sound.  
+#### 🔸CapCut / Filmora
+In this project, I utilized CapCut and Filmora to skillfully edit Santa's sound for adding a delightful and magical touch to the holiday experience.   
 
 #### 🔸Vanilla Tilt
 For enhancing interactive elements, I integrated [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/), incorporating dynamic movement into the project.  
